@@ -11,13 +11,31 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+        #carouselExampleDark p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2rem;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+        }
+        #carouselExampleDark h5{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2rem;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+        }
+        #carouselExampleDark img{
+            z-index: -1;
+            opacity: 0.7;
+        }
+    </style>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <h3 class="navbar-brand">Hawk</h3>
+            <h1 class="navbar-brand">Hawk</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -66,9 +84,9 @@
         </div>
     </nav>
     <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Holy guacamole!</strong> You should check in on some of those fields below. <button type="button"
+        <strong>Hey there!</strong> You are having some pending notifications. <button type="button"
             class="btn btn-primary">
-            Notifications <span class="badge bg-secondary">4</span>
+            Check Now! <span class="badge bg-secondary">4</span>
         </button>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
@@ -103,8 +121,8 @@
                 <img src="https://images.unsplash.com/photo-1445740503840-28bc9900d00f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaCxuYXR1cmV8fHx8fHwxNjQyNzgxNTY3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>“The purpose of our lives is to be happy.”</h5>
+                    <p>Dalai Lama</p>
                     <button class="btn btn-primary">Web Development projects</button>
                     <button class="btn btn-success">Gallery</button>
                     <button class="btn btn-danger">Programming projects</button>
@@ -114,8 +132,8 @@
                 <img src="https://images.unsplash.com/photo-1421757295538-9c80958e75b0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaCxlYXJ0aHx8fHx8fDE2NDI3ODE2Mjc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>“Many of life’s failures are people who did not realize how close they were to success when they gave up.”</h5>
+                    <p>Thomas A. Edison</p>
                     <button class="btn btn-primary">Web Development projects</button>
                     <button class="btn btn-success">Gallery</button>
                     <button class="btn btn-danger">Programming projects</button>
@@ -126,8 +144,8 @@
                 <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8c3BhY2UsdGVjaHx8fHx8fDE2NDI3ODE2NjI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Fourth slide label</h5>
-                    <p>Some representative placeholder content for the fourth slide.</p>
+                    <h5>“Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.”</h5>
+                    <p>Steve Jobs</p>
                     <button class="btn btn-primary">Web Development projects</button>
                     <button class="btn btn-success">Gallery</button>
                     <button class="btn btn-danger">Programming projects</button>
@@ -138,8 +156,8 @@
                 <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wLGNvZmZlZXx8fHx8fDE2NDI3ODE3Mjk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>fifth slide label</h5>
-                    <p>Some representative placeholder content for the fifth slide.</p>
+                    <h5>“Life is never easy. There is work to be done and obligations to be met – obligations to truth, to justice, and to liberty.”</h5>
+                    <p> John F. Kennedy </p>
                     <button class="btn btn-primary">Web Development projects</button>
                     <button class="btn btn-success">Gallery</button>
                     <button class="btn btn-danger">Programming projects</button>
@@ -163,10 +181,8 @@
                 <img width="500" height="500" src="https://images.unsplash.com/photo-1498603536246-15572faa67a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kaW5nLGNvZmZlZXx8fHx8fDE2NDI3ODA4ODE&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
                     class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional
-                        content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Know about your coffee!</h5>
+                    <p class="card-text">Alongside water and tea, coffee is one of the most popular drinks worldwide with over 400 billion cups of it being consumed each year. Britain alone consumes approximately 2.8 kilos of coffee per person, per year and over £1 billion was spent on coffee last year..</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -174,9 +190,9 @@
                 <img width="500" height="500" src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaHx8fHx8fDE2NDI3ODA5OTQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=900"
                     class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
-                    </p>
+                    <h5 class="card-title">What is God Particle in simple words?</h5>
+                    <p class="card-text">
+                        In 2012, scientists confirmed the detection of the long-sought Higgs boson, also known by its nickname the "God particle," at the Large Hadron Collider (LHC), the most powerful particle accelerator on the planet. This particle helps give mass to all elementary particles that have mass, such as electrons and protons</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -184,10 +200,8 @@
                 <img width="500" height="500" src="https://images.unsplash.com/photo-1532704868953-d85f24176d73?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnJ1aXR8fHx8fHwxNjQyNzgxMTE4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=900"
                     class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional
-                        content. This card has even longer content than the first to show that equal height action.</p>
+                    <h5 class="card-title">Want to know about peaches</h5>
+                    <p class="card-text">The health benefits of peach fruit include relief from hypokalemia, cancer, obesity, cholesterol, blood stasis and neurodegenerative diseases. It helps in maintaining healthy vision, skin care, nervous system, healthy bones, and teeth. It has anti-aging properties and also helps in detoxification, as well as improving digestion and cellular health. It has a wealth of essential nutrients and antioxidants which are valuable during pregnancy and it helps in strengthening the immune system.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -195,8 +209,10 @@
     </div>
     <div class="row my-5 ">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          <h2 class="featurette-heading">iPhone 14 rumors: Everything we've heard about Apple's new iPhone <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Apple showed off its iPhone 13 last year, and 2022 will likely bring another shiny, new iPhone. The iPhone 14 isn't quite "just around the corner," and there's still a lot of questions we still have about the rumored iPhone. Will Apple ditch the iPhone Mini?
+            The biggest rumors so far include a new design with a notchless display (yeah, we've heard that one before), a pill and hole-punch front camera, under-display Touch ID, a more durable titanium alloy body, the elimination of the chunky rear camera bump, a shakeup of the four-phone lineup with new screen sizes and the death of the iPhone Mini. And, when it comes to Apple's ProMotion display, you may not want to count on it coming to all iPhone 14 models. 
+          </p>
         </div>
         <div class="col-md-5">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1000" height="700" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaCxwYW50eXx8fHx8fDE2NDI4NDA1ODU&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" alt="">
@@ -208,14 +224,15 @@
           <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
               <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">Featured post</h3>
+              <h3 class="mb-0">Pfizer starts Omicron-specific COVID-19 vaccine trial</h3>
               <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text mb-auto">Pfizer have begun enrolment for a clinical trial to test the safety and immune response of their Omicron-specific COVID-19 vaccine in adults aged up to 55, the companies said in a statement on January 25.
+                Pfizer’s CEO Albert Bourla has previously said that the pharmaceutical giant could be ready to file for regulatory approval of the shot by March.The trial is taking place across the United States and South Africa, and the first participant was dosed in North Carolina.</p>
               <a href="#" class="stretched-link">Continue reading</a>
             </div>
             <div class="col-auto d-none d-lg-block">
               
-                <img class="bd-placeholder-img" width="200" height="250" src="https://cdn.wallpapersafari.com/15/17/z0fQkp.jpg" alt="">
+                <img class="bd-placeholder-img" width="200" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzqQ8YPm83_eweA_xo6DC8D53qhP0hGldGNzSwe3n4LWqCXd2FESLjQCKvTpqTNDlchDc&usqp=CAU" alt="">
     
             </div>
           </div>
@@ -223,14 +240,19 @@
         <div class="col-md-6">
           <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">Post title</h3>
+              <strong class="d-inline-block mb-2 text-success">Technology</strong>
+              <h3 class="mb-0">Padma Honours For Microsoft's Satya Nadella, Google's Sundar Pichai</h3>
               <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="mb-auto">Microsoft CEO Satya Nadella and Google's Sundar Pichai are among the 17 Padma Bhushan awardees this year. 
+                Padma Bhushan is the third-highest civilian award in India after Bharat Ratna and Padma Vibhushan. 
+                
+                The Padma honours are given for exceptional service in different fields - art, social work, public affairs, science and engineering, trade and industry, medicine, literature and education, sports, and civil service. 
+                
+                </p>
               <a href="#" class="stretched-link">Continue reading</a>
             </div>
             <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img" width="200" height="250" src="https://i.pinimg.com/736x/02/ba/86/02ba867e545f953631148c89629412b1.jpg" alt="">
+                <img class="bd-placeholder-img" width="200" height="250" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/07/23/986810-sundar-pichai.jpg" alt="">
             </div>
           </div>
         </div>
@@ -238,14 +260,14 @@
         <div class="col-md-6">
           <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">Featured post</h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <strong class="d-inline-block mb-2 text-primary">Movies</strong>
+              <h3 class="mb-0">Pushpa: The Rise</h3>
+              <div class="mb-1 text-muted">IMDb RATING : 8.0 </div>
+              <p class="card-text mb-auto">Story of Pushpa Raj, a lorry driver in Seshachalam forests of South India, set in the backdrop of red sandalwood smuggling. Red Sandalwood is endemic to South-Eastern Ghats (mountain range) of India.</p>
               <a href="#" class="stretched-link">Continue reading</a>
             </div>
             <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img" width="200" height="250" src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bc01c83c3da0425e9baa6c7a9204af81" alt="">
+                <img class="bd-placeholder-img" width="200" height="250" src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2020/04/08/Stylish-Star-Allu-Arjun-s-Pushpa-Movie-Second-Look-Poster-.jpg?quality=80&zoom=1&ssl=1" alt="">
     
             </div>
           </div>
@@ -253,14 +275,14 @@
         <div class="col-md-6">
           <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">Post title</h3>
+              <strong class="d-inline-block mb-2 text-success">Sports</strong>
+              <h3 class="mb-0">IPL 2022 Auction: 10 Teams, 10 ’MOST WANTED’ Players</h3>
               <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="mb-auto">The IPL 2022 Auction is just three weeks away and 10 IPL franchises have shortlisted their targets. </p>
               <a href="#" class="stretched-link">Continue reading</a>
             </div>
             <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img" width="200" height="250" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg" alt="">
+                <img class="bd-placeholder-img" width="200" height="250" src="https://cdn.insidesport.in/wp-content/uploads/2022/01/25222422/WhatsApp-Image-2022-01-25-at-9.04.58-PM.jpeg" alt="">
     
             </div>
           </div>
@@ -295,27 +317,9 @@
                   </ul>
                 </div>
           
-                <div class="col-2">
-                  <h5>Section</h5>
-                  <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                  </ul>
-                </div>
+               
           
-                <div class="col-2">
-                  <h5>Section</h5>
-                  <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                  </ul>
-                </div>
+              
           
                 <div class="col-4 offset-1">
                   <form>
