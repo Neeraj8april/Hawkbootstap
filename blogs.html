@@ -1,19 +1,111 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="fox" href="docs/favicon-32x32.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Blog Template · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/">
+
+
+
+
+
+    <link href="./Blog Template · Bootstrap v5.2_files/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<!--     <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/apple-touch-icon.png"
+        sizes="180x180">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32"
+        type="image/png">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16"
+        type="image/png">
+    <link rel="manifest" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/manifest.<b>JSON</b>">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/safari-pinned-tab.svg"
+        color="#712cf9">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+ -->
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="./Blog Template · Bootstrap v5.2_files/css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./Blog Template · Bootstrap v5.2_files/blog.css" rel="stylesheet">
+</head>
+
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/Hawkbootstap/index.html">Hawk</a>
+            <a class="navbar-brand" href="/hawk/index.html">Hawk</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -22,10 +114,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/Hawkbootstap/index.html">Home</a>
+                        <a class="nav-link " aria-current="page" href="/hawk/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/Hawkbootstap/about.html">About</a>
+                        <a class="nav-link " href="/hawk/about.html">About</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -34,19 +126,19 @@
                             Categories
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item active" href="/Hawkbootstap/blogs.html">blogs</a></li>
-                            <li><a class="dropdown-item " href="/Hawkbootstap/vedios.html">Vedios</a></li>
+                            <li><a class="dropdown-item active" href="/hawk/blogs.html">blogs</a></li>
+                            <li><a class="dropdown-item " href="/hawk/vedios.html">Vedios</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="/Hawkbootstap/write.html">Write For Us!</a></li>
+                            <li><a class="dropdown-item" href="/hawk/write.html">Write For Us!</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/Hawkbootstap/contact.html">Contact Me</a>
+                        <a class="nav-link " href="/hawk/contact.html">Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Hawkbootstap/login.html">Login</a>
+                        <a class="nav-link" href="/hawk/login.html">Login</a>
                     </li>
 
                 </ul>
@@ -61,84 +153,418 @@
             </div>
         </div>
     </nav>
-    <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-      </div>
-      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <h4 id="list-item-1">Item 1</h4>
-        <p>...</p>
-        <h4 id="list-item-2">Item 2</h4>
-        <p>...</p>
-        <h4 id="list-item-3">Item 3</h4>
-        <p>...</p>
-        <h4 id="list-item-4">Item 4</h4>
-        <p>...</p>
-      </div>
-      <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link" href="#item-1">Item 1</a>
-          <nav class="nav nav-pills flex-column">
-            <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-            <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-          </nav>
-          <a class="nav-link" href="#item-2">Item 2</a>
-          <a class="nav-link" href="#item-3">Item 3</a>
-          <nav class="nav nav-pills flex-column">
-            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
-          </nav>
-        </nav>
-      </nav>
-      
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
-        <h4 id="item-1">Item 1</h4>
-        <p>...</p>
-        <h5 id="item-1-1">Item 1-1</h5>
-        <p>...</p>
-        <h5 id="item-1-2">Item 1-2</h5>
-        <p>...</p>
-        <h4 id="item-2">Item 2</h4>
-        <p>...</p>
-        <h4 id="item-3">Item 3</h4>
-        <p>...</p>
-        <h5 id="item-3-1">Item 3-1</h5>
-        <p>...</p>
-        <h5 id="item-3-2">Item 3-2</h5>
-        <p>...</p>
-      </div>
-    <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
-          <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-              <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-            </div>
-          </div>
+
+
+    <div class="container">
+
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2 link-secondary" href=" ">World</a>
+
+                <a class="p-2 link-secondary" href=" ">Technology</a>
+                <a class="p-2 link-secondary" href=" ">Design</a>
+
+                <a class="p-2 link-secondary" href=" ">Science</a>
+                <a class="p-2 link-secondary" href=" ">Health</a>
+                <a class="p-2 link-secondary" href=" ">Style</a>
+                <a class="p-2 link-secondary" href=" ">Travel</a>
+            </nav>
         </div>
-      </div>
-    <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+            <div class="">
+                <h1 class="display-4 fst">Why MongoDB ?</h1>
+                <img src="https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png" alt=""
+                    height="250px" width="100%">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                <p class="lead my-3 display fst">Hi readers,
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
+                    In this blog, Initially we will learn about the mongoDB database, The architecture of mongoDB, the
+                    working of mongoDB and , why we should use mongoDB. At the end of this blog, we will compare mongoDB
+                    with other common databases so let’s get started.
+                    We all have been working on traditional SQL databases for a long time but with time, Data is also
+                    growing rapidly all around the world. There has been an increased interest in the non-relational
+                    database, also known as ‘NoSQL’.
+                    Organizations are finding new methods to handle the flood of data and inclination towards the
+                    alternate database management tools and systems that are different from the common relational
+                    database systems. Here comes mongoDB in the frame.
+                    What is mongoDB ?
+                    mongoDB is a document-oriented NoSQL database used for high-volume data storage. Instead of using
+                    tables and rows as in the traditional relational databases, mongoDB makes use of collections and
+                    documents. Documents consist of key-value pairs which are the basic unit of data in mongoDB.
+                    Collections contain sets of documents and functions which is the equivalent of relational database
+                    tables.</p>
+                <h2 class="">Key components of mongoDB architecture:</h2>
+                <table class="lead my-3 display fst">
+                    <ul class="">
+                        <li class="lead my-3 display fst">Database: In simple words, We can call it the physical
+                            container for data. In mongoDB, A
+                            database contains the collections of documents. Therefore one can create multiple databases
+                            on the mongoDB server.
+
+                        </li>
+                        <li class="lead my-3 display fst">Collection: It’s a group of mongoDB documents, similar to a
+                            table in RDBMS like Oracle,
+                            MySQL. This collection doesn’t enforce any structure. As a result, schema-less mongoDB is so
+                            popular.
+
+                        </li>
+                        <li class="lead my-3 display fst"> Document: A record in a mongoDB collection is called a
+                            document. This document consists of
+                            a key-value pair. This document is basically a BSON(Binary <b>JSON</b>) document. Documents
+                            are
+                            associated with dynamic schemas. Accordingly, the benefit of having dynamic schemas is that
+                            a document in a single collection does not have to possess the same structure or fields.
+                        </li>
+                    </ul>
+                </table>
+
+            </div>
+        </div>
+
+        <main class="container">
+            <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+                <div class="">
+                    <h1 class="display-4 fst">MERN Stack Explained</h1>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY0JeyLTcn-kwLcHWl0gf3XzfFnot6eshV2ms8RVkEmzZst74I4X24PO8KCT7inFz46W0&usqp=CAU"
+                        alt="" height="350px" width="100%">
+                    <h2 class="display-4 fst">What is the MERN stack?</h2>
+
+                    <p class="lead my-3">MERN stands for MongoDB, Express, React, Node, after the four key technologies
+                        that make up the stack.
+                        <br>
+                        <br>
+
+                        <strong> MongoDB — document database
+                            <br>
+                            Express(.js) — Node.js web framework
+                            <br>
+                            React(.js) — a client-side JavaScript framework
+                            <br>
+                            Node(.js) — the premier JavaScript web server
+                            <br>
+                        </strong>
+                        <br>
+
+
+                        Express and Node make up the middle (application) tier. Express.js is a server-side web
+                        framework, and Node.js is the popular and powerful JavaScript server platform. Regardless of
+                        which variant you choose, ME(RVA)N is the ideal approach to working with JavaScript and
+                        <b>JSON</b>, all the way through.
+                        <br>
+
+                    </p>
+                    <h2>Why choose the MERN stack?</h2>
+                    <table>
+                        <ul>
+                            <li>Let’s start with <b>MongoDB</b>, the document database at the root of the
+                                <b>MERN stack</b>. MongoDB was designed to store <b>JSON</b> data natively (it
+                                technically uses a binary version of <b>JSON</b> called BSON), and everything from its
+                                command line interface to its query language (MQL, or MongoDB Query Language) is built
+                                on <b>JSON</b> and JavaScript.
+
+
+
+
+
+
+
+
+
+                            </li>
+                            <li> <b>MongoDB</b> works extremely well with <b>Node.js</b> , and makes storing,
+                                manipulating, and representing <b>JSON</b> data at every tier of your application
+                                incredibly easy. For cloud-native applications, MongoDB Atlas makes it even easier, by
+                                giving you an auto-scaling MongoDB cluster on the cloud provider of your choice, as easy
+                                as a few button clicks.
+                            </li>
+                            <li> Express.js (running on Node.js) and <b>React.js</b> make the JavaScript/<b>JSON</b>
+                                application MERN full stack, well, full. Express.js is a server-side application
+                                framework that wraps HTTP requests and responses, and makes it easy to map URLs to
+                                server-side functions. <b>React.js</b> is a front end JavaScript framework for building
+                                interactive user interfaces in HTML, and communicating with a remote server.
+                            </li>
+                            <li>The combination means that <b>JSON</b> data flows naturally from front to back, making
+                                it fast to build on and reasonably simple to debug. Plus, you only have to know one
+                                programming language, and the <b>JSON</b> document structure, to understand the whole
+                                system!</li>
+                            <li>MERN is the stack of choice for today’s web developers looking to move quickly,
+                                particularly for those with <b>React.js</b> experience.
+
+                            </li>
+                        </ul>
+                    </table>
+                    <p class="lead mb-0"><a href=" " class="text-white fw-bold">Continue reading...</a></p>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Machine Learning</strong>
+                            <h3 class="mb-0">Linear regression</h3>
+                            <div class="mb-1 text-muted">Nov 12</div>
+                            <p class="card-text mb-auto">Linear regression is a quiet and the simplest statistical
+                                regression method used for predictive analysis in machine learning. Linear regression
+                                shows the linear relationship between the independent(predictor) variable i.e. X-axis
+                                and the dependent(output) variable i.e. Y-axis, called linear regression. </p>
+
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="https://static.javatpoint.com/tutorial/machine-learning/images/linear-regression-in-machine-learning.png"
+                                alt="" height="300px" width="300px">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Machine Learning</strong>
+                            <h3 class="mb-0">Lasso Regression</h3>
+                            <div class="mb-1 text-muted">Nov 11</div>
+                            <p class="mb-auto">This is a regularization technique used in feature selection using a
+                                Shrinkage method also referred to as the penalized regression method. Lasso is short for
+                                Least Absolute Shrinkage and Selection Operator, which is used both for regularization
+                                and model selection. If a model uses the L1 regularization technique, then it is called
+                                lasso regression.</p>
+
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="https://res.cloudinary.com/dyd911kmh/image/upload/v1648205672/image18_a3zz7y.png"
+                                alt="" height="300px" width="300px">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Machine Learning</strong>
+                            <h3 class="mb-0">Logistic Regression</h3>
+                            <div class="mb-1 text-muted"></div>
+                            <p class="mb-auto">This type of statistical model (also known as logit model) is often used
+                                for classification and predictive analytics. Logistic regression estimates the
+                                probability of an event occurring, such as voted or didn’t vote, based on a given
+                                dataset of independent variables. Since the outcome is a probability, the dependent
+                                variable is bounded between 0 and 1. </p>
+
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190522162153/sigmoid-function-300x138.png"
+                                alt="" height="300px" width="300px">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Machine Learning</strong>
+                            <h3 class="mb-0">Ramdom Forest</h3>
+                            <div class="mb-1 text-muted">Nov 12</div>
+                            <p class="card-text mb-auto">Random forest is a commonly-used machine learning algorithm
+                                trademarked by Leo Breiman and Adele Cutler, which combines the output of multiple
+                                decision trees to reach a single result. Its ease of use and flexibility have fueled its
+                                adoption, as it handles both classification and regression problems. </p>
+
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm2.png"
+                                alt="" height="300px" width="300px">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-md-8">
+                    <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                        From the Firehose
+                    </h3>
+
+                    <article class="blog-post">
+                        <h2 class="blog-post-title mb-1">Support Vector Machine Algorithm</h2>
+                        <p class="blog-post-meta">Machine Learning blog by <a href=" ">Neeraj</a></p>
+
+                        <p>Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms,
+                            which is used for Classification as well as Regression problems. However, primarily, it is
+                            used for Classification problems in Machine Learning.
+
+                        </p>
+                        <img src="https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm.png"
+                            alt="" height="400px" width="500px">
+
+                        <hr>
+                        <p> The goal of the SVM algorithm is to create the best line or decision boundary that can
+                            segregate n-dimensional space into classes so that we can easily put the new data point in
+                            the correct category in the future. This best decision boundary is called a hyperplane.
+
+                            SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme
+                            cases are called as support vectors, and hence algorithm is termed as Support Vector
+                            Machine. Consider the below diagram in which there are two different categories that are
+                            classified using a decision boundary or hyperplane:</p>
+                        <h4>Types of SVM</h4>
+                        <p>
+                            <strong> SVM can be of two types:</strong>
+
+                            <br>
+                            <br>
+
+                            <b> Linear SVM:</b> Linear SVM is used for linearly separable data, which means if a dataset
+                            can be classified into two classes by using a single straight line, then such data is termed
+                            as linearly separable data, and classifier is used called as Linear SVM classifier.
+                            <br>
+                            <br>
+                            <b>Non-linear SVM:</b> Non-Linear SVM is used for non-linearly separated data, which means
+                            if a dataset cannot be classified by using a straight line, then such data is termed as
+                            non-linear data and classifier used is called as Non-linear SVM classifier.
+                        </p>
+                        <hr>
+                        <img src="https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm2.png"
+                            alt="" width="500px" height="400px">
+
+                        <blockquote class="blockquote">
+                            <strong>
+                                <p>SVM algorithm can be used for Face detection, image classification, text
+                                    categorization, etc.</p>
+                            </strong>
+                        </blockquote>
+                        <hr>
+                        
+
+                    </article>
+                    <article class="blog-post">
+                        <h2 class="blog-post-title mb-1">Why Deep Learning?</h2>
+                        <p class="blog-post-meta">Deep Learning blog by <a href=" ">Neeraj</a></p>
+
+                        <p>It’s a pertinent question. There is no shortage of machine learning algorithms so why should
+                            a data scientist gravitate towards deep learning algorithms? What do neural networks offer
+                            that traditional machine learning algorithms don’t?
+                        </p>
+                        <p>
+                            Another common question I see floating around – neural networks require a ton of computing
+                            power, so is it really worth using them? While that question is laced with nuance, here’s
+                            the short answer – yes!</p>
+
+                        <p> The different types of neural networks in deep learning, such as convolutional neural
+                            networks (CNN), recurrent neural networks (RNN), artificial neural networks (ANN), etc. are
+                            changing the way we interact with the world.
+                        </p>
+                        <p> These different types of neural networks are at the core of the deep learning revolution,
+                            powering applications like unmanned aerial vehicles, self-driving cars, speech recognition,
+                            etc.
+
+                        </p>
+                        <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/man-nueral-network-red-.jpg"
+                            alt="" height="400px" width=100%>
+
+                        <hr>
+                        <p>It’s natural to wonder – can’t machine learning algorithms do the same? Well, here are two key reasons why researchers and experts tend to prefer Deep Learning over Machine Learning:</p>
+                        <li>Decision Boundary</li>
+                        <li>Feature Engineering</li>
+                        <p>Curious? Good – let me explain.</p>
+                        <p> The goal of the SVM algorithm is to create the best line or decision boundary that can
+                            segregate n-dimensional space into classes so that we can easily put the new data point in
+                            the correct category in the future. This best decision boundary is called a hyperplane.
+
+                            SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme
+                            cases are called as support vectors, and hence algorithm is termed as Support Vector
+                            Machine. Consider the below diagram in which there are two different categories that are
+                            classified using a decision boundary or hyperplane:</p>
+                        <h4>Types of SVM</h4>
+                        <p>
+                            <strong> SVM can be of two types:</strong>
+
+                            <br>
+                            <br>
+
+                            <b> Linear SVM:</b> Linear SVM is used for linearly separable data, which means if a dataset
+                            can be classified into two classes by using a single straight line, then such data is termed
+                            as linearly separable data, and classifier is used called as Linear SVM classifier.
+                            <br>
+                            <br>
+                            <b>Non-linear SVM:</b> Non-Linear SVM is used for non-linearly separated data, which means
+                            if a dataset cannot be classified by using a straight line, then such data is termed as
+                            non-linear data and classifier used is called as Non-linear SVM classifier.
+                        </p>
+                        <hr>
+                        <img src="https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm2.png"
+                            alt="" width="500px" height="400px">
+
+                        <blockquote class="blockquote">
+                            <strong>
+                                <p>SVM algorithm can be used for Face detection, image classification, text
+                                    categorization, etc.</p>
+                            </strong>
+                        </blockquote>
+                        <hr>
+                    </article>
+
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="position-sticky" style="top: 2rem;">
+                        <div class="p-4 mb-3 bg-light rounded">
+                            <h4 class="fst-italic">About</h4>
+                            <p class="mb-0">Hi! This is Neeraj Joshi and in this section of my website I write blogs and
+                                article regarding the data science, machine learning, Web development.</p>
+                        </div>
+
+                        <div class="p-4">
+                            <h4 class="fst-italic">The 10 Best Data Science Blogs To Follow</h4>
+                            <ol class="list-unstyled mb-0 text-decoration-none">
+                                <li><a href="https://www.datasciencecentral.com/">1. Data Science Central</a></li>
+                                <li><a href="https://www.smartdatacollective.com/">2. SmartData Collective</a></li>
+                                <li><a href="https://whatsthebigdata.com/">3. What's The Big Data?</a></li>
+                                <li><a href="https://medium.com/kaggle-blog">4. No Free Hunch</a></li>
+                                <li><a href="https://insidebigdata.com/">5. insideBIGDATA</a></li>
+                                <li><a href="https://simplystatistics.org/">6. Simply Statistics</a></li>
+                                <li><a href="https://datafloq.com/">7. Datafloq</a></li>
+                                <li><a href="https://ryanswanstrom.com/">8. Data Science 101</a></li>
+                                <li><a href="https://dataconomy.com/">9. Dataconomy</a></li>
+                                <li><a href="http://starbridgepartners.com/data-science-report/">10. Data Science
+                                        Report</a></li>
+
+                            </ol>
+                        </div>
+
+                        <div class="p-4">
+                            <h4 class="fst-italic">My socials</h4>
+                            <ol class="list-unstyled">
+                                <li><a href="https://github.com/Neeraj8april">GitHub</a></li>
+                                <li><a
+                                        href="https://app.slack.com/client/T02TNQS5273/C02SVH988RM/rimeto_profile/U03CXKPQ4LW">Slack</a>
+                                </li>
+                                <li><a href="https://www.facebook.com/neeraj.joshi.9678">Facebook</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="blog-footer">
+            <br><br><br>
+            <p>Site belongs to Neeraj Joshi
+            </p>
+        </footer>
+
+
+
+
+
+</body>
+
 </html>
